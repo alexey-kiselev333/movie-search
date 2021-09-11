@@ -1,7 +1,11 @@
 import * as React from "react";
+import {FC} from "react";
 
-const SearchBlock = ({setSearchValue}) =>
+interface PropsSearchBlock{
+    setSearchValue:any
+}
 
+const SearchBlock:FC<PropsSearchBlock> = ({setSearchValue}) =>
     <div className="search-block d-flex">
         <img src="/img/search.svg" alt="Search"/>
         <input

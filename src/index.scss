@@ -3,7 +3,7 @@ body {
   font-family: system-ui;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #61fbfb;
+  background: #61fbb3;
 }
 *{
   font-family:"Inter",system-ui;
@@ -289,3 +289,34 @@ img{
 .title{
   text-align: center;
 }
+.justify-around{
+  justify-content:space-around;
+}
+.describe{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.movieDetailsCard{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+}
+
+.cardx {
+
+  display: flex;
+  border: 1px solid #F3F3F3;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 600px;
+  border-radius:40px ;
+  font-weight: 400;
+  font-size:20px;
+  height: 600px;
+  padding-bottom:10px;
+  margin: auto;
+  margin-bottom: 50px;}
